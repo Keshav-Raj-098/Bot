@@ -1,10 +1,20 @@
 from typing import Final
 from telegram import Update,InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes,MessageHandler,Application, filters,CallbackQueryHandler
+from movie import search_movie,choose_genre
+from config import BOT_TOKEN
 
-TOKEN:Final = '7607562374:AAEJuriLylwqM0_ll4jDsa7oKggVN5Ny2t0'
+from helpers.current_movies import get_with_category
+
+
+from context import UserContext
+
+TOKEN:Final = BOT_TOKEN
 BOT_USERNAME:Final = '@hoottell_bot'
 API_URL:Final = f'https://api.telegram.org/bot{TOKEN}/'
+
+
+user_context = UserContext()
 
 
 
@@ -16,31 +26,60 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     ]
     
     reply_markup = InlineKeyboardMarkup(keyboard)
-    await update.message.reply_text( f'Hello {update.effective_user.first_name}, I am here to help you with finding and booking the best hotels for your stay.', reply_markup=reply_markup)
+    await update.message.reply_text( f'Hello {update.effective_user.first_name}, I am here to help you with finding the movies according to your mood.', reply_markup=reply_markup)
 
 async def begin_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Search Hotels", callback_data='search')],
-        [InlineKeyboardButton("Book Hotel", callback_data='book')],
+        [InlineKeyboardButton("Search By Genre", callback_data='search')],
+        [InlineKeyboardButton("Popular", callback_data='get-unique-popular'),
+         InlineKeyboardButton("Top Rated", callback_data='get-unique-top_rated')],
+        [InlineKeyboardButton("Currently in Theatres", callback_data='get-unique-now_playing'),
+         InlineKeyboardButton("Upcoming", callback_data='get-unique-upcoming')],
+        [InlineKeyboardButton("History", callback_data='book')],
         [InlineKeyboardButton("Cancel Booking", callback_data='cancel')]
     ])
     
-    await update.message.reply_text(
+    await update.callback_query.message.edit_text(
         'What would you like to do?',
         reply_markup=reply_markup
     )
+    
+    
+    
+page = 1
 
 # callback handler for button presses
 async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()  # acknowledge the callback
-    await query.edit_message_text(text=f"You selected: {query.data}")
     
-async def search_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.callback_query
-    await query.answer()  # acknowledge the callback
-    await query.edit_message_text(text=f"You selected: {query.data}")
     
+    if query.data == 'begin' or  query.data == 'main_menu':
+        await begin_command(update, context)
+        
+    elif query.data == 'search':
+        await choose_genre(update, context)
+    
+    # elif query.data == 'main_menu':
+    #     await
+        
+    elif query.data.startswith("genre_"):
+        genre = query.data.split("_")[1]
+        await search_movie(update,context,genre)
+        
+    elif query.data.startswith("get-unique-"):
+        # user.page_data[]
+        key = query.data.split("-")[2]
+        if not key:
+            return
+        print("Url",key)
+        user_context.updatepage_Query(query.data)
+        await get_with_category(update,context,user_context,key)
+    
+    
+    
+    
+
     
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
@@ -106,8 +145,11 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler('help', help_command))
     app.add_handler(CommandHandler('custom', custom_command))
     
-    app.add_handler(CallbackQueryHandler(button),handler='button')
-    app.add_handler(CallbackQueryHandler(search_button),handler='search')
+    app.add_handler(CallbackQueryHandler(button))
+    # app.add_handler(CallbackQueryHandler(search_button),handler='search')
+    
+    
+    
     
     
     
