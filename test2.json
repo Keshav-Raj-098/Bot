@@ -1,0 +1,408 @@
+{
+  "dates": {
+    "maximum": "2025-06-18",
+    "minimum": "2025-05-07"
+  },
+  "page": 3,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/iqQSRP52a8q7CNViVyXz6nC5CJP.jpg",
+      "genre_ids": [
+        53,
+        10402
+      ],
+      "id": 1093237,
+      "original_language": "en",
+      "original_title": "Hurry Up Tomorrow",
+      "overview": "A musician plagued by insomnia is pulled into an odyssey with a stranger who begins to unravel the very core of his existence.",
+      "popularity": 31.8712,
+      "poster_path": "/9W44XSMYbjXdlXcQhD104zPhhhJ.jpg",
+      "release_date": "2025-05-14",
+      "title": "Hurry Up Tomorrow",
+      "video": false,
+      "vote_average": 5.391,
+      "vote_count": 69
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kYgQzzjNis5jJalYtIHgrom0gOx.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        28,
+        35,
+        12,
+        14
+      ],
+      "id": 1011985,
+      "original_language": "en",
+      "original_title": "Kung Fu Panda 4",
+      "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+      "popularity": 35.319,
+      "poster_path": "/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg",
+      "release_date": "2024-03-02",
+      "title": "Kung Fu Panda 4",
+      "video": false,
+      "vote_average": 7.059,
+      "vote_count": 3102
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/b3mdmjYTEL70j7nuXATUAD9qgu4.jpg",
+      "genre_ids": [
+        16,
+        14,
+        12
+      ],
+      "id": 823219,
+      "original_language": "lv",
+      "original_title": "Straume",
+      "overview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "popularity": 35.904,
+      "poster_path": "/imKSymKBK7o73sajciEmndJoVkR.jpg",
+      "release_date": "2024-08-29",
+      "title": "Flow",
+      "video": false,
+      "vote_average": 8.176,
+      "vote_count": 2036
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/z5caDtY3tn6rwbzB8iIA8PFCqYN.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 1245165,
+      "original_language": "es",
+      "original_title": "Viaje de fin de curso: Mallorca",
+      "overview": "2021. After spending a year in confinement, a group of high school students and their two teachers begin an end-of-year trip to Mallorca. This great plan is the last opportunity they have to all be together, make up for lost time, be able to have fun like they have never had before and say goodbye to this crazy stage of their lives. However, a new coronavirus outbreak disrupts all their plans and forces them to stay locked in their hotel rooms. More than 50 students, 2 teachers, a hotel and many, many minibars... What could go wrong?",
+      "popularity": 29.1415,
+      "poster_path": "/ejYX4ygRoupGRjFgmmtnK0sMxhN.jpg",
+      "release_date": "2025-05-30",
+      "title": "Graduation Trip: Mallorca",
+      "video": false,
+      "vote_average": 5.3,
+      "vote_count": 35
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/drSJ0HVuSNFMPq5VzAEHk37BiEC.jpg",
+      "genre_ids": [
+        16,
+        10749,
+        878
+      ],
+      "id": 1165642,
+      "original_language": "ko",
+      "original_title": "이 별에 필요한",
+      "overview": "When an astronaut leaves Earth for Mars, the vast infinite space divides star-crossed lovers in this animated romance that crosses the cosmos.",
+      "popularity": 27.7766,
+      "poster_path": "/dXlUIfwejWa9YvugU9V773dUASY.jpg",
+      "release_date": "2025-05-30",
+      "title": "Lost in Starlight",
+      "video": false,
+      "vote_average": 7.45,
+      "vote_count": 40
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uKb22E0nlzr914bA9KyA5CVCOlV.jpg",
+      "genre_ids": [
+        18,
+        10749,
+        14
+      ],
+      "id": 402431,
+      "original_language": "en",
+      "original_title": "Wicked",
+      "overview": "In the land of Oz, ostracized and misunderstood green-skinned Elphaba is forced to share a room with the popular aristocrat Glinda at Shiz University, and the two's unlikely friendship is tested as they begin to fulfill their respective destinies as Glinda the Good and the Wicked Witch of the West.",
+      "popularity": 31.7228,
+      "poster_path": "/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg",
+      "release_date": "2024-11-20",
+      "title": "Wicked",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 2176
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hRn5oyuhrVFjLwDpe73UvqgvPht.jpg",
+      "genre_ids": [
+        28,
+        14,
+        27
+      ],
+      "id": 793387,
+      "original_language": "ko",
+      "original_title": "거룩한 밤: 데몬 헌터스",
+      "overview": "When a devil-worshipping criminal network plunges Seoul into chaos, the police turn to Holy Night—a trio of supernatural demon hunters—to restore order and defeat the rising evil.",
+      "popularity": 27.1446,
+      "poster_path": "/v3Mo77Qjp6pctpD4eJaNT6kFRSB.jpg",
+      "release_date": "2025-04-30",
+      "title": "Holy Night: Demon Hunters",
+      "video": false,
+      "vote_average": 5.885,
+      "vote_count": 13
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jzo95EcgXHcVrJQFDqoLSf3TJSF.jpg",
+      "genre_ids": [
+        35,
+        10749,
+        14
+      ],
+      "id": 1318856,
+      "original_language": "fr",
+      "original_title": "Un mariage sans fin",
+      "overview": "During a wedding in a riad on the edge of the Moroccan desert, Paul meets Louna, the bride's sister and witness. Following a paranormal event, they both find themselves trapped in the same space-time, forced to live the same day over and over again. And so begins a love story set against the backdrop of a time loop and a never-ending marriage…",
+      "popularity": 27.8071,
+      "poster_path": "/uvygZlicNXBIpklnLuAbgwkMMSL.jpg",
+      "release_date": "2025-05-30",
+      "title": "An Endless Wedding",
+      "video": false,
+      "vote_average": 4.58,
+      "vote_count": 25
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5vkYsIN0BpDlATvHCjufG5SimkU.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1103857,
+      "original_language": "en",
+      "original_title": "Juliet & Romeo",
+      "overview": "Set in 1301 at the end of Medieval times, our most famous star-crossed lovers turn the tides on the history Shakespeare based his own story on, as they reveal the truth to the very future of the Empire. But the biggest twist in this most beloved of tales, is leaving the poetry of Iambic Pentameter in the past, for the original pop music that rockets these ever-present themes right to the heart of our characters in the most surprising, and perhaps most powerful way that has ever been seen, or heard, before... The greatest love story of all time, set to the greatest music of our time.",
+      "popularity": 25.7164,
+      "poster_path": "/4spOdjLgRAbIYO7mu22DQ2iInz7.jpg",
+      "release_date": "2025-05-09",
+      "title": "Juliet & Romeo",
+      "video": false,
+      "vote_average": 5.833,
+      "vote_count": 6
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/veUl0QT8swshQ9Dz0fQ1k6ZkthD.jpg",
+      "genre_ids": [
+        27,
+        53,
+        878
+      ],
+      "id": 170,
+      "original_language": "en",
+      "original_title": "28 Days Later",
+      "overview": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
+      "popularity": 29.4873,
+      "poster_path": "/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
+      "release_date": "2002-10-31",
+      "title": "28 Days Later",
+      "video": false,
+      "vote_average": 7.237,
+      "vote_count": 7172
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
+      "genre_ids": [
+        16,
+        14,
+        12
+      ],
+      "id": 980477,
+      "original_language": "zh",
+      "original_title": "哪吒之魔童闹海",
+      "overview": "Following the Tribulation, although the souls of Ne Zha and Ao Bing were preserved, their physical bodies will soon be destroyed. Tai Yi Zhen Ren plans to use the Seven Colored Lotus to reshape their physical forms, but encounters numerous difficulties. What will become of Ne Zha and Ao Bing?",
+      "popularity": 28.9957,
+      "poster_path": "/293Mo4GWf7Tl0TfAr5NFghqeMy7.jpg",
+      "release_date": "2025-01-29",
+      "title": "Ne Zha 2",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 176
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sra8XnL96OyLHENcglmZJg6HA8z.jpg",
+      "genre_ids": [
+        12,
+        28,
+        53
+      ],
+      "id": 954,
+      "original_language": "en",
+      "original_title": "Mission: Impossible",
+      "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the prime suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+      "popularity": 28.1104,
+      "poster_path": "/l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
+      "release_date": "1996-05-22",
+      "title": "Mission: Impossible",
+      "video": false,
+      "vote_average": 7.001,
+      "vote_count": 9311
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zav0v7gLWMu6pVwgsIAwt11GJ4C.jpg",
+      "genre_ids": [
+        27,
+        53,
+        878
+      ],
+      "id": 1100988,
+      "original_language": "en",
+      "original_title": "28 Years Later",
+      "overview": "Twenty-eight years since the rage virus escaped a biological weapons laboratory, now, still in a ruthlessly enforced quarantine, some have found ways to exist amidst the infected. One such group lives on a small island connected to the mainland by a single, heavily-defended causeway. When one member departs on a mission into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.",
+      "popularity": 30.6067,
+      "poster_path": "/hVKHzr4GwSw0FepqhqQ0DDiYHNY.jpg",
+      "release_date": "2025-06-18",
+      "title": "28 Years Later",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lS49jyUZg9xHfelHMsmL3o3H6rq.jpg",
+      "genre_ids": [
+        35,
+        27,
+        14
+      ],
+      "id": 1112466,
+      "original_language": "fr",
+      "original_title": "Les femmes au balcon",
+      "overview": "As a heat wave brings a Marseille neighbourhood to the boil, three roommates gleefully meddle in the lives of their neighbours from their balcony. Until a late night drink turns into a bloody affair.",
+      "popularity": 25.8015,
+      "poster_path": "/rEgAdJtf8S8JgUG2NJoWiRvpTz.jpg",
+      "release_date": "2024-11-15",
+      "title": "The Balconettes",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 56
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fog8Vbeg1KOZAucucPxgYpXJ0a0.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1472668,
+      "original_language": "en",
+      "original_title": "Wick Is Pain",
+      "overview": "Witness the never-before-seen footage and true story behind the John Wick phenomenon – from independent film to billion-dollar franchise.",
+      "popularity": 24.6281,
+      "poster_path": "/ctZ9bjmCYyfFt3cUepc9axr0zHs.jpg",
+      "release_date": "2025-05-08",
+      "title": "Wick Is Pain",
+      "video": false,
+      "vote_average": 7.367,
+      "vote_count": 45
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qocKcY8QVgWiG4HKD7CP5yApXDr.jpg",
+      "genre_ids": [
+        12,
+        35
+      ],
+      "id": 1137350,
+      "original_language": "en",
+      "original_title": "The Phoenician Scheme",
+      "overview": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists, and determined assassins.",
+      "popularity": 26.3483,
+      "poster_path": "/aHjpixSOn166tZLWRdIvHWDPu6y.jpg",
+      "release_date": "2025-05-23",
+      "title": "The Phoenician Scheme",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 203
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3lEV4CoKoeT2cZ4fbKEJugZcw6Z.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 1244944,
+      "original_language": "en",
+      "original_title": "The Woman in the Yard",
+      "overview": "In the aftermath of her husband's death, widow Ramona's struggle to raise her two kids is hindered by the arrival of a mysterious woman with supernatural abilities.",
+      "popularity": 27.0409,
+      "poster_path": "/n0WS2TsNcS6dtaZKzxipyO7LuCJ.jpg",
+      "release_date": "2025-03-27",
+      "title": "The Woman in the Yard",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 194
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mBDoBHUZHHy9WG7dRFndjB8adhc.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        12,
+        16,
+        878
+      ],
+      "id": 1022787,
+      "original_language": "en",
+      "original_title": "Elio",
+      "overview": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+      "popularity": 26.7054,
+      "poster_path": "/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg",
+      "release_date": "2025-06-18",
+      "title": "Elio",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bFmziv84NfEVEGTK8c6EVY3bxve.jpg",
+      "genre_ids": [
+        28,
+        80,
+        9648,
+        53
+      ],
+      "id": 1180906,
+      "original_language": "en",
+      "original_title": "Desert Dawn",
+      "overview": "A newly appointed small-town sheriff and his begrudging deputy get tangled up in a web of lies and corruption involving shady businessmen and the cartel while investigating the murder of a mysterious woman.",
+      "popularity": 24.7955,
+      "poster_path": "/S21BfLrJSD9njucBfY3CKqp8rD.jpg",
+      "release_date": "2025-05-15",
+      "title": "Desert Dawn",
+      "video": false,
+      "vote_average": 7.364,
+      "vote_count": 11
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8LjN496M9Mo0b5M6uvlVObz81bn.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 1417059,
+      "original_language": "en",
+      "original_title": "Mountainhead",
+      "overview": "A group of billionaire friends get together against the backdrop of a rolling international crisis.",
+      "popularity": 25.882,
+      "poster_path": "/jZKK5mFKWbquxhAGMkRJtNYwk0I.jpg",
+      "release_date": "2025-06-01",
+      "title": "Mountainhead",
+      "video": false,
+      "vote_average": 5.5,
+      "vote_count": 67
+    }
+  ],
+  "total_pages": 257,
+  "total_results": 5136
+}
